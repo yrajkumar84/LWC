@@ -1,0 +1,34 @@
+<!-- <template>
+    <lightning-card title="slot demo">
+        <div class="slds-var-m-around_medium">
+
+            <c-slot-child>
+               
+                <p slot="1">from parebt slot 1 </p>
+                <p>from parebt  slot 2 </p>
+                <p slot="foot">I am footer</p>
+            </c-slot-child>
+        </div>
+        <div class="slds-var-m-around_medium">
+
+            <c-slot-child>
+                
+                <p slot="1">from parebt slot 1 </p>
+                <p>from parebt  slot 2 </p>
+               
+            </c-slot-child>
+        </div>
+    </lightning-card>
+</template> -->
+
+<template>
+	<lightning-card title="slot demo">
+		<div class="slds-var-m-around_medium">
+			<h2> Parent component</h2>
+			<c-slot-child></c-slot-child>
+			<c-slot-child class="blue">
+                <p>In side child slot</p>
+            </c-slot-child>
+		</div>
+	</lightning-card>
+</template>
